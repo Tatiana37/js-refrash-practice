@@ -44,9 +44,20 @@ const orderMsg = `You have ordered ${5} fridges`;
 
 // 'Что ищем?'
 
-const brand = 'Samsung';
-const normalizedBrand = brand.toLowerCase();
-console.log(normalizedBrand);
+// const brand = 'Samsung';
+// let brand = prompt('Give a brand');
+// const normalizedBrand = brand.toLowerCase();
+// console.log(normalizedBrand);
+
+// let brand = 'SamSUnG';
+// console.log(brand[3]);
+// console.log(brand.slice(1).toLowerCase());
+
+// brand = brand[0] + brand.slice(1).toLowerCase();
+// console.log(brand);
+
+//==========================================================================
+
 // Поиск по строке с методом includes()
 
 const blackListedWords1 = 'spam';
@@ -54,5 +65,15 @@ const blackListedWords2 = 'sale';
 
 const string1 =
   'Hi, I am somebody? this is not a spam, i offer a million to you!';
-const string2 = 'this is a biggest week sale, do not lose it!';
+const string2 = 'this is a biggest week SALE, do not lose it!';
 const string3 = 'advertising company #fatlivesmatter';
+
+// console.log(string1.includes(blackListedWords1));
+// console.log(string1.includes(blackListedWords2));
+
+// console.log(string2.includes(blackListedWords2));
+// const normalizedString2 = string2.toLowerCase();
+// console.log(normalizedString2.includes(blackListedWords2));
+
+// console.log(string3.includes(blackListedWords2));
+// console.log(string3.includes(blackListedWords2));
