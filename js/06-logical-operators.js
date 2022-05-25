@@ -8,13 +8,27 @@
 // Логическще И(оператор &&)
 //     - Запинается на лжи
 //     - Возвращает то, на чем запнулось или последний операнд
-console.log(5 && 'hello' && 7 && 'mango'); // mango
-console.log(5 && 'hello' && 0 && 7 && 'mango'); // 0
-console.log(0 && 'hello'); // 0
-console.log(false && 1); // false
+
+// console.log(5 && 'hello' && 7 && 'mango'); // mango
+// console.log(5 && 'hello' && 0 && 7 && 'mango'); // 0
+// console.log(0 && 'hello'); // 0
+// console.log(false && 1); // false
+
+//===========================================================
+
 // Логическще ИЛИ(оператор ||)
 // - Запинается на правде
 // - Возвращает то, на чем запнулось или последний операнд
 
+// console.log(false || false || 8 || 10); //8
+// console.log(5 || 3 || false); //5
+// console.log(false || null || 0 || NaN); // NaN
+
+//=============================================================
+
 // Логическое НЕ(оператор!)
 // Делает инверсию : правда в ложь и ложь в правду
+
+// console.log(!false); //true
+// console.log(!true); //false
+// console.log(!0); //true
